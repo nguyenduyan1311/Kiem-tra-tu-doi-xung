@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = '';
+    arr = prompt("Nhập chuỗi");
+    function isPalindrome(a,begin,end) {
+        if (a[begin] != a[end]) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+    alert(isPalindrome(arr,0,arr.length - 1));
+</script>
+</body>
+</html>
